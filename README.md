@@ -1,18 +1,17 @@
 # Web Scraping y Natural Language Processing: 
 
-El proyecto busca sondear el resultado de las elecciones de EE.UU. del 5 de noviembre mediante la recopilación de información de las principales páginas 
-de debate político en Reddit, usando la técnica de Web Scraping.
+El proyecto busca sondear el resultado de las elecciones de EE.UU. del 5 próximo 5 de noviembre mediante la recopilación de información de las principales páginas de debate político en Reddit, usando la técnica de Web Scraping.
 
 Tras un filtrado, utilizaremos modelos de procesamiento de lenguaje natural (NLP), concretamente "sentiment analysis" para evaluar la inclinación política en los datos recopilados.
 
-## Instalación: pasos para instalar y configurar el proyecto.
+## Instalación: pasos para instalar y configurar el proyecto:
 
 El repositorio está organizado de la siguiente manera:
 
 
 - `all_the_news` - EDA y unsupervised learning model para clusters de espectros políticos. 
-- `modeling` - RoBERTa y ss análisis de sentimiento.
-- `reddit_scraping` - Web Scraping y datasets obtenidos para el análisis de sentiomiento.
+- `modeling` - RoBERTa model y el análisis de sentimiento.
+- `reddit_scraping` - Web Scraping y datasets obtenidos para el análisis de sentimiento.
 - `requirements.txt` - librerías necesarias para el desarrollo del proyecto.
 
 ## Instalación
@@ -26,12 +25,10 @@ pip install -r requirements.txt
 ```
 
 
-## Analiza con tu propio dataset
+## Analiza con tu propio dataset: ¡sondea el resultado electoral del próximo 5 de noviembre tú mismo!
 
-Puedes colocar tus conjuntos de datos sin procesar en el repositorio para posteriormente analizarlos con el modelo RoBERTa. 
+Gracias a la función scrapeadora de la carpeta ´reddit_scraping´ podrás obtener la recopilación de comentarios más recientes en un momento concreto. 
 
-Gracias a la función scrapeadora de la carpeta ´reddit scraping´ podrás obtener la recopilación de comentarios más recientes en un momento preciso. 
+Según los expertos en política, los resultados de unas elecciones se juegan, sobre todo, en las tres semanas previas al día de la votación. 
 
-Según los expertos en política, los resultados de unas elecciones se juegan, sobre todo, en las tres semanas previas al día de la elección. 
-
-Nuestra recomendación es practicar el Web Scraping en este periodo. 
+Nuestra recomendación es practicar el Web Scraping en este periodo, para, fiinalmente, analizarlos con el modelo RoBERTa. 
