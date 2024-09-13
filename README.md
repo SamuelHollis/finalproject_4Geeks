@@ -1,6 +1,6 @@
 # Web Scraping y Natural Language Processing: 
 
-El proyecto busca sondear el resultado de las elecciones de EE.UU. del 5 próximo 5 de noviembre mediante la recopilación de información de las principales páginas de debate político en Reddit, usando la técnica de Web Scraping.
+El proyecto busca sondear el resultado de las elecciones de EE.UU. del próximo 5 de noviembre mediante la recopilación de información de las principales páginas de debate político en Reddit, usando la técnica de Web Scraping.
 
 Tras un filtrado, utilizaremos modelos de procesamiento de lenguaje natural (NLP), concretamente "sentiment analysis" para evaluar la inclinación política en los datos recopilados.
 
